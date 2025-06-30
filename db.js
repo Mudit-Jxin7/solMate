@@ -14,4 +14,9 @@ async function createUser(id, publicKey, secretKey) {
   return users.insertOne({ telegram_id: id, publicKey, secretKey });
 }
 
-module.exports = { getUser, createUser };
+async function deleteUser(id) {
+  await client.connect();
+  return users.deleteOne({ telegram_id: id });
+}
+
+module.exports = { getUser, createUser, deleteUser };
