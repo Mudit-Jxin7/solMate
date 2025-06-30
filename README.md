@@ -68,7 +68,7 @@ nodemon index.js
 
 ## 📸 Screenshots
 
-Coming soon...
+![Screenshot_2025-06-30-23-08-42](https://github.com/user-attachments/assets/27db1357-75d7-4197-bd01-662fe54b20bb)
 
 ---
 
